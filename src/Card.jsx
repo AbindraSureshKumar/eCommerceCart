@@ -2,13 +2,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 
 function Card({ item, cartItems, handleAddToCart }) {
-    let star = (n) => {
-      let strRow =[];
-      for(var i=0;i<n;i++) {
-        strRow.push(<FontAwesomeIcon icon={faStar} />);
-      }
-      return strRow;
-    };
+  let star = (n) => {
+    let strRow = [];
+    for (var i = 0; i < n; i++) {
+      strRow.push(<FontAwesomeIcon icon={faStar} />);
+    }
+    return strRow;
+  };
   return (
     <div className="col-lg-4 mb-2">
       <div class="card" style={{ width: "14rem" }}>
