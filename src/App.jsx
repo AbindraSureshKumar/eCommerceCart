@@ -25,7 +25,7 @@ function App() {
       id: 3,
       title: "iwatch",
       price: 200,
-      rating: 4,
+      rating: 2,
       img: "assets/iwatch.jpg",
     },
     {
